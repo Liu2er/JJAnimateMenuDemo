@@ -8,6 +8,17 @@
 
 #import <UIKit/UIKit.h>
 
+@protocol JJAnimateMenuDelegate <NSObject>
+
+- (void)menuDidOpen;
+- (void)menuDidClose;
+
+@end
+
 @interface JJAnimateMenuViewController : UIViewController
+
+@property (nonatomic, weak) id<JJAnimateMenuDelegate> delegate;
+
+- (instancetype)initWithAnimateView:(UIView *)animateview;
 
 @end
