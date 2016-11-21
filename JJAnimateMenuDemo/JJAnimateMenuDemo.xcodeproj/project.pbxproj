@@ -15,6 +15,7 @@
 		586EF6591DE2EA02007B5A67 /* JJAnimateMenuDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 586EF6581DE2EA02007B5A67 /* JJAnimateMenuDemoTests.m */; };
 		586EF6641DE2EA02007B5A67 /* JJAnimateMenuDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 586EF6631DE2EA02007B5A67 /* JJAnimateMenuDemoUITests.m */; };
 		586EF6731DE2EB58007B5A67 /* JJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 586EF6721DE2EB58007B5A67 /* JJViewController.m */; };
+		586EF6761DE2EC48007B5A67 /* JJAnimateMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 586EF6751DE2EC48007B5A67 /* JJAnimateMenuViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		586EF6651DE2EA02007B5A67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		586EF6711DE2EB58007B5A67 /* JJViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJViewController.h; sourceTree = "<group>"; };
 		586EF6721DE2EB58007B5A67 /* JJViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJViewController.m; sourceTree = "<group>"; };
+		586EF6741DE2EC48007B5A67 /* JJAnimateMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJAnimateMenuViewController.h; sourceTree = "<group>"; };
+		586EF6751DE2EC48007B5A67 /* JJAnimateMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJAnimateMenuViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				586EF6421DE2EA01007B5A67 /* AppDelegate.m */,
 				586EF6711DE2EB58007B5A67 /* JJViewController.h */,
 				586EF6721DE2EB58007B5A67 /* JJViewController.m */,
+				586EF6741DE2EC48007B5A67 /* JJAnimateMenuViewController.h */,
+				586EF6751DE2EC48007B5A67 /* JJAnimateMenuViewController.m */,
 				586EF63E1DE2EA01007B5A67 /* Supporting Files */,
 			);
 			path = JJAnimateMenuDemo;
@@ -279,6 +284,7 @@
 				586EF6431DE2EA01007B5A67 /* AppDelegate.m in Sources */,
 				586EF6731DE2EB58007B5A67 /* JJViewController.m in Sources */,
 				586EF6401DE2EA01007B5A67 /* main.m in Sources */,
+				586EF6761DE2EC48007B5A67 /* JJAnimateMenuViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
