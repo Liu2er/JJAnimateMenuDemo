@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  JJViewController.h
 //  JJAnimateMenuDemo
 //
 //  Created by 刘佳杰 on 16/11/21.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface JJViewController : UIViewController
 
 @end
-
