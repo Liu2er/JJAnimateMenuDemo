@@ -1,0 +1,2 @@
+# JJAnimateMenuDemo
+这是一个页面以左上角为锚点在重力作用下展开的demo
