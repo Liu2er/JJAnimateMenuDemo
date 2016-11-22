@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		585C7A6D1DE3DE840064A8CB /* JJMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 585C7A6C1DE3DE840064A8CB /* JJMenuViewController.m */; };
 		586EF6401DE2EA01007B5A67 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 586EF63F1DE2EA01007B5A67 /* main.m */; };
 		586EF6431DE2EA01007B5A67 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 586EF6421DE2EA01007B5A67 /* AppDelegate.m */; };
 		586EF6491DE2EA01007B5A67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 586EF6471DE2EA01007B5A67 /* Main.storyboard */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		585C7A6B1DE3DE840064A8CB /* JJMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJMenuViewController.h; sourceTree = "<group>"; };
+		585C7A6C1DE3DE840064A8CB /* JJMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJMenuViewController.m; sourceTree = "<group>"; };
 		586EF63B1DE2EA01007B5A67 /* JJAnimateMenuDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JJAnimateMenuDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		586EF63F1DE2EA01007B5A67 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		586EF6411DE2EA01007B5A67 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -108,6 +111,8 @@
 				586EF6421DE2EA01007B5A67 /* AppDelegate.m */,
 				586EF6711DE2EB58007B5A67 /* JJViewController.h */,
 				586EF6721DE2EB58007B5A67 /* JJViewController.m */,
+				585C7A6B1DE3DE840064A8CB /* JJMenuViewController.h */,
+				585C7A6C1DE3DE840064A8CB /* JJMenuViewController.m */,
 				586EF6741DE2EC48007B5A67 /* JJAnimateMenuViewController.h */,
 				586EF6751DE2EC48007B5A67 /* JJAnimateMenuViewController.m */,
 				586EF63E1DE2EA01007B5A67 /* Supporting Files */,
@@ -284,6 +289,7 @@
 				586EF6431DE2EA01007B5A67 /* AppDelegate.m in Sources */,
 				586EF6731DE2EB58007B5A67 /* JJViewController.m in Sources */,
 				586EF6401DE2EA01007B5A67 /* main.m in Sources */,
+				585C7A6D1DE3DE840064A8CB /* JJMenuViewController.m in Sources */,
 				586EF6761DE2EC48007B5A67 /* JJAnimateMenuViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -522,6 +528,7 @@
 				586EF66A1DE2EA02007B5A67 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		586EF66B1DE2EA02007B5A67 /* Build configuration list for PBXNativeTarget "JJAnimateMenuDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +537,7 @@
 				586EF66D1DE2EA02007B5A67 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		586EF66E1DE2EA02007B5A67 /* Build configuration list for PBXNativeTarget "JJAnimateMenuDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -538,6 +546,7 @@
 				586EF6701DE2EA02007B5A67 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
