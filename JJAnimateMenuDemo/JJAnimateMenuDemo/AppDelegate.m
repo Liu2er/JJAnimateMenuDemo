@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "JJViewController.h"
+#import "JJMainViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,7 +17,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-    JJViewController *JJVC = [[JJViewController alloc] init];
+    JJMainViewController *JJVC = [[JJMainViewController alloc] init];
     UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:JJVC];
     self.window.rootViewController = nav;
     [self.window makeKeyAndVisible];

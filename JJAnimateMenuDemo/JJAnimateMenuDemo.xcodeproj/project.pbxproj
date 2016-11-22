@@ -15,7 +15,7 @@
 		586EF64E1DE2EA01007B5A67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 586EF64C1DE2EA01007B5A67 /* LaunchScreen.storyboard */; };
 		586EF6591DE2EA02007B5A67 /* JJAnimateMenuDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 586EF6581DE2EA02007B5A67 /* JJAnimateMenuDemoTests.m */; };
 		586EF6641DE2EA02007B5A67 /* JJAnimateMenuDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 586EF6631DE2EA02007B5A67 /* JJAnimateMenuDemoUITests.m */; };
-		586EF6731DE2EB58007B5A67 /* JJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 586EF6721DE2EB58007B5A67 /* JJViewController.m */; };
+		586EF6731DE2EB58007B5A67 /* JJMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 586EF6721DE2EB58007B5A67 /* JJMainViewController.m */; };
 		586EF6761DE2EC48007B5A67 /* JJAnimateMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 586EF6751DE2EC48007B5A67 /* JJAnimateMenuViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -53,8 +53,8 @@
 		586EF65F1DE2EA02007B5A67 /* JJAnimateMenuDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JJAnimateMenuDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		586EF6631DE2EA02007B5A67 /* JJAnimateMenuDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJAnimateMenuDemoUITests.m; sourceTree = "<group>"; };
 		586EF6651DE2EA02007B5A67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		586EF6711DE2EB58007B5A67 /* JJViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJViewController.h; sourceTree = "<group>"; };
-		586EF6721DE2EB58007B5A67 /* JJViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJViewController.m; sourceTree = "<group>"; };
+		586EF6711DE2EB58007B5A67 /* JJMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJMainViewController.h; sourceTree = "<group>"; };
+		586EF6721DE2EB58007B5A67 /* JJMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJMainViewController.m; sourceTree = "<group>"; };
 		586EF6741DE2EC48007B5A67 /* JJAnimateMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJAnimateMenuViewController.h; sourceTree = "<group>"; };
 		586EF6751DE2EC48007B5A67 /* JJAnimateMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJAnimateMenuViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -109,8 +109,8 @@
 			children = (
 				586EF6411DE2EA01007B5A67 /* AppDelegate.h */,
 				586EF6421DE2EA01007B5A67 /* AppDelegate.m */,
-				586EF6711DE2EB58007B5A67 /* JJViewController.h */,
-				586EF6721DE2EB58007B5A67 /* JJViewController.m */,
+				586EF6711DE2EB58007B5A67 /* JJMainViewController.h */,
+				586EF6721DE2EB58007B5A67 /* JJMainViewController.m */,
 				585C7A6B1DE3DE840064A8CB /* JJMenuViewController.h */,
 				585C7A6C1DE3DE840064A8CB /* JJMenuViewController.m */,
 				586EF6741DE2EC48007B5A67 /* JJAnimateMenuViewController.h */,
@@ -287,7 +287,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				586EF6431DE2EA01007B5A67 /* AppDelegate.m in Sources */,
-				586EF6731DE2EB58007B5A67 /* JJViewController.m in Sources */,
+				586EF6731DE2EB58007B5A67 /* JJMainViewController.m in Sources */,
 				586EF6401DE2EA01007B5A67 /* main.m in Sources */,
 				585C7A6D1DE3DE840064A8CB /* JJMenuViewController.m in Sources */,
 				586EF6761DE2EC48007B5A67 /* JJAnimateMenuViewController.m in Sources */,

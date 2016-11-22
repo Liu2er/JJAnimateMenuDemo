@@ -1,21 +1,21 @@
 //
-//  JJViewController.m
+//  JJMainViewController.m
 //  JJAnimateMenuDemo
 //
 //  Created by 刘佳杰 on 16/11/21.
 //  Copyright © 2016年 Jiajie.Liu. All rights reserved.
 //
 
-#import "JJViewController.h"
+#import "JJMainViewController.h"
 #import "JJAnimateMenuViewController.h"
 
-@interface JJViewController () <JJAnimateMenuDelegate>
+@interface JJMainViewController () <JJAnimateMenuDelegate>
 
 @property (nonatomic, strong) UITableView *tableView;
 
 @end
 
-@implementation JJViewController
+@implementation JJMainViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
